@@ -9,6 +9,7 @@ var y string = "James Bond"
 var z bool = true
 
 func main() {
+	// tabular en la misma linea
 	s := fmt.Sprintf("%v\t%v\t%v", x, y, z)
 	fmt.Println(s)
 }
